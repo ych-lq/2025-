@@ -24,7 +24,7 @@ AES-NI 指令集包含硬件指令以加速 AES 操作，尽管 SM4 并不直接
 
 ## 3. 高级指令集（GFNI、VPROLD）
 
-最新的指令集，如 GFNI（Galois Field New Instructions）和 VPROLD（Vector Permute Left），可以提供进一步的优化：
+最新的指令集，如 GFNI和 VPROLD，可以提供进一步的优化：
 
 - **GFNI**：此指令集可用于涉及 Galois 域的操作，这与某些加密和解密过程相关。
 - **VPROLD**：此指令集允许高效的矢量左移操作，可以替代 SM4 中的传统 rotl 操作。
